@@ -8,9 +8,9 @@ namespace Ejercicio1
 {
     class Enemigo
     {
-        public bool Moverse { get; set; }
+        /*public bool Moverse { get; set; }
         public bool Disparar { get; set; }
-        public bool Explotar { get; set; }
+        public bool Explotar { get; set; }*/
         public int Posicionx { get; set; }
         public int Posiciony { get; set; }
 
@@ -32,6 +32,19 @@ namespace Ejercicio1
                     throw new Exception("El puntaje no puede ser menor a 100");
                 }
             }
+        }
+
+        public void mover()
+        {
+
+        }
+        public void explotar()
+        {
+
+        }
+        public void disparar()
+        {
+
         }
     }
 }
